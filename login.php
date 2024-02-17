@@ -30,3 +30,5 @@ if($_POST["user"] === 'Admin' && $_POST["pass"] === 'Admin1234'){
     </body>
 
 </html>
+
+<!-- Login php -->

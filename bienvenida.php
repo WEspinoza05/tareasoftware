@@ -12,5 +12,3 @@ for($i = 1; $i <= $a; $i++)
     echo "$numero * ". $i. "=". $total  . "<br>";
 }
 ?>
-
-<!-- Esto es la bienvenida -->
