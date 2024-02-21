@@ -61,10 +61,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fechafin = test_input($_POST["fechafin"]);
   }
 
-  if (empty($_POST["adress"])) {
+  if (empty($_POST["direccion"])) {
     $adress = "";
   } else {
-    $adress = test_input($_POST["adress"]);
+    $adress = test_input($_POST["direccion"]);
   }
 }
 
