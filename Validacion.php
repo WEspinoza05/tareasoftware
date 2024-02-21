@@ -49,10 +49,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $age = test_input($_POST["age"]);
   }
   
-  if (empty($_POST["fechaini"])) {
+  if (empty($_POST["fechafin"])) {
     $fechainiErr = "Fecha de llegada es requerido";
   } else {
-    $fechaini = test_input($_POST["fechaini"]);
+    $fechaini = test_input($_POST["fecha fin"]);
   }
 
   if (empty($_POST["fechafin"])) {
