@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = test_input($_POST["email"]);
   }
 
-  if (empty($_POST["comment"])) {
+  if (empty($_POST["Nostream"])) {
     $comment = "";
   } else {
     $comment = test_input($_POST["comment"]);
