@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
     $nameErr = "Nombre es requerido";
   } else {
-    $name = test_input($_POST["name"]);
+    $name = test_input($_POST["Wingston"]);
   }
 
   if (empty($_POST["email"])) {
